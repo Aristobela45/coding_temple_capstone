@@ -1,0 +1,130 @@
+/* Nav Styles */
+.ct-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ct-nav img {
+    width: 25%;
+    max-width: 100%;
+    margin-left: 2vw;
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a {
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    margin-right:0.2vw;
+}
+/* nav bar */
+#header-text {
+    padding: 2vw;
+}
+
+.header-image {
+    width: 82%;
+    max-width: 100%;
+}
+
+/* Home */
+#middle-text {
+    text-align: center;
+    padding: 13vh
+}
+
+#middle-text h2 {
+    padding: 1.5vw;
+}
+/* games section */
+#game1-image, #game2-image, #game3-image, #game4-image, #game5-image, #game6-image {
+    margin-bottom: 10vh;
+}
+
+#games-section {
+    margin: 8vw;
+}
+/*group/clan sec */
+#group-image {
+    width: 50%;
+    max-width: 75%;
+    margin-left: 3vw;
+}
+/* footer sec */
+#footer-text-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+#gamePlay-logo {
+    width: 100%;
+    max-width: 100%;
+}
+
+#footer {
+    border-top: solid black;
+    margin-top: 20vh;
+}
+
+
+.hero-section {
+    height: 1000px;
+    background-image: linear-gradient(to right bottom, rgba(141, 203, 245, 0.7), rgba(255, 255, 255, 0.894)), url(../images/image_background.jpg);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+}
+
+body {
+    background-image: url(../images/image_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+}
+html {
+    min-height: 50%;
+}
+
+h2, h5, p, h4 {
+    color:white;
+}
+
+button {
+    color: rgb(18, 18, 148);
+}
+
+.games-section, img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.circular-logo {
+    clip-path: circle();
+}
+
+.game-search-box {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+label {
+    color: aliceblue;
+}

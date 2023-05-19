@@ -1,0 +1,4 @@
+.env
+gameplay_env
+migrations
+__pycache__
